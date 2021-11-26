@@ -12,4 +12,7 @@ Install collection package:
 ansible-galaxy collection install community.general
 ```
 
-
+Install all requirements:
+```bash
+ansible-galaxy install -r requirements.yaml
+```
