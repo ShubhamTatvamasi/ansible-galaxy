@@ -6,7 +6,10 @@ https://galaxy.ansible.com/search?keywords=&order_by=-download_count&page=1
 
 Create collection:
 ```bash
-ansible-galaxy collection init shubhamtatvamasi.magma
+ansible-galaxy collection init shubhamtatvamasi.test-collection
+build
+publish
+install
 ```
 
 ### Install collections
