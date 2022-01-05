@@ -2,10 +2,14 @@
 
 https://galaxy.ansible.com/search?keywords=&order_by=-download_count&page=1
 
-create new ansible role:
+### Build collections
+
+Create collection:
 ```bash
-ansible-galaxy init magma
+ansible-galaxy collection init shubhamtatvamasi.magma
 ```
+
+### Install collections
 
 list all collections:
 ```bash
@@ -20,4 +24,11 @@ ansible-galaxy collection install community.general
 Install all requirements:
 ```bash
 ansible-galaxy install -r requirements.yaml
+```
+
+### Roles
+
+create new ansible role:
+```bash
+ansible-galaxy role init magma
 ```
